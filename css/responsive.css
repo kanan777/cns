@@ -148,4 +148,36 @@
     width: 240px;
     height: 254px;
   }
+  .testimonial__img img {
+    margin-top: 220px;
+    width: 300px;
+    margin-right: 12px;
+  }
+  .client-comments h2 {
+    margin-bottom: 32px;
+    font-size: 44px;
+  }
+  .large-article {
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 16px;
+  }
+  .large-article img {
+    width: 400px;
+  }
+  .large-article .article-content {
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 24px;
+    margin-right: 12px;
+  }
+  .small-article {
+    max-width: 390px;
+  }
+  .small-article img {
+    width: 390px;
+  }
+  .application-section .application-form {
+    margin: 80px 120px 80px 334px;
+  }
 }/*# sourceMappingURL=responsive.css.map */

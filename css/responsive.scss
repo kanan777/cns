@@ -28,7 +28,7 @@
     }
 
     .request-form__content {
-        .form-items{
+        .form-items {
             margin-left: 0;
         }
 
@@ -40,7 +40,7 @@
             margin-left: 46px;
         }
 
-        .form-element .message__input{
+        .form-element .message__input {
             width: 312px;
         }
     }
@@ -83,15 +83,15 @@
         }
     }
 
-    .our-projects{
+    .our-projects {
         margin-left: 32px;
     }
 
-    .clients{
+    .clients {
         margin-bottom: 100px;
     }
 
-    .clients img:not(:last-child){
+    .clients img:not(:last-child) {
         margin-right: 60px;
     }
 
@@ -99,15 +99,15 @@
         margin-left: 12px;
     }
 
-    .testimonials__img{
+    .testimonials__img {
         margin-right: 28px;
     }
 
-    .large-article img{
+    .large-article img {
         width: 420px;
     }
 
-    .large-article{
+    .large-article {
         max-width: 420px;
     }
 
@@ -121,18 +121,18 @@
         margin-right: 76px;
     }
 
-    .copyright p{
+    .copyright p {
         margin-right: 584px;
     }
 }
 
 @media screen and (max-width:992px) {
-    .header nav ul li{
+    .header nav ul li {
         margin-left: 18px;
         margin-right: 0px;
     }
 
-    .cns-title_content{
+    .cns-title_content {
         margin-top: 140px;
         margin-left: 160px !important;
     }
@@ -151,7 +151,7 @@
         }
     }
 
-    .core-values{
+    .core-values {
         margin-top: 28px;
     }
 
@@ -167,7 +167,7 @@
         margin-bottom: 180px;
     }
 
-    .request-form__content{
+    .request-form__content {
         h3 {
             margin-right: 360px;
         }
@@ -177,14 +177,14 @@
             width: 200px;
         }
 
-        #message{
+        #message {
             width: 248px;
         }
 
-        .form-element:first-child{
+        .form-element:first-child {
             margin-left: 36px;
         }
-    }    
+    }
 
     .portfolio-card {
         height: 360px;
@@ -205,6 +205,48 @@
                 width: 240px;
                 height: 254px;
             }
+        }
+    }
+
+    .testimonial__img img {
+        margin-top: 220px;
+        width: 300px;
+        margin-right: 12px
+    }
+
+    .client-comments h2 {
+        margin-bottom: 32px;
+        font-size: 44px;
+    }
+
+    .large-article {
+        width: 400px;
+        margin-left: 10px;
+        margin-right: 16px;
+
+        img {
+            width: 400px;
+        }
+
+        .article-content {
+            text-align: left;
+            margin-left: 8px;
+            margin-top: 24px;
+            margin-right: 12px;
+        }
+    }
+
+    .small-article{
+        max-width: 390px;
+
+        img{
+            width: 390px;
+        }
+    }
+
+    .application-section{
+        .application-form{
+            margin: 80px 120px 80px 334px;
         }
     }
 }
