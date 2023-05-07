@@ -1,0 +1,63 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+.header nav {
+  height: 52px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header nav .logo {
+  margin-right: 40px;
+}
+.header nav ul {
+  margin-bottom: 0px;
+  margin-right: 152px;
+}
+.header nav ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.header nav ul li a {
+  text-decoration: none;
+  color: var(--gray800);
+  font-size: 16px;
+  line-height: 25.6px;
+  font-weight: 700;
+  transition: all 0.4s ease;
+}
+.header nav ul li a:hover {
+  color: var(--primaryOrange);
+}
+
+.call-us:not(:last-child) {
+  margin-right: 36px;
+}
+
+.call-icon_content {
+  margin-left: 12px;
+}
+.call-icon_content a {
+  text-decoration: none;
+  color: var(--gray900);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+.call-icon_content .action {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+}
+.call-icon_content .action,
+.call-icon_content .call {
+  color: var(--gray800);
+}/*# sourceMappingURL=header.css.map */

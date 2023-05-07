@@ -35,12 +35,6 @@ h6 {
     margin: 0px;
 }
 
-
-// ::selection{
-//     background: var(--mainPink);
-//     color: var(--mainWhite);
-// }
-
 $base-font: 'Ubuntu', sans-serif;
 
 @mixin display-center {
@@ -108,84 +102,11 @@ body {
     padding: 0;
 }
 
-.header {
-    $this: &;
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
-    @include display-center();
-    background: white;
-    // position: fixed;
-    // z-index: 9999;
-    // min-width: 1920px;
-
-    nav {
-        // max-width: 1230px;
-        height: 52px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-
-        .logo {
-            margin-right: 40px;
-        }
-
-        ul {
-            margin-bottom: 0px;
-            margin-right: 152px;
-
-            li {
-                margin-left: 20px;
-                margin-right: 20px;
-
-                a {
-                    text-decoration: none;
-                    color: var(--gray800);
-                    font-size: 16px;
-                    line-height: 25.6px;
-                    font-weight: 700;
-                    transition: all .4s ease;
-                }
-
-                a:hover {
-                    color: var(--primaryOrange);
-                }
-            }
-        }
-    }
-}
-
-.call-us:not(:last-child) {
-    margin-right: 36px;
-}
-
-.call-icon_content {
-    margin-left: 12px;
-
-    a {
-        text-decoration: none;
-        color: var(--gray900);
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 150%;
-    }
-
-    .action {
-        font-size: 14px;
-        line-height: 21px;
-        font-weight: 700;
-    }
-
-    .action,
-    .call {
-        color: var(--gray800);
-    }
-}
+@import 'header.scss';
 
 //-------------------   
 //CREATEX SECTION PG1
 //-------------------
-
 
 .custom-icon {
     @include display-center();
