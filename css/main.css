@@ -914,6 +914,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
   position: absolute;
+  padding: 10px;
 }
 .footer-right .footer-form .solid-regular__button {
   max-width: 132px;
@@ -1163,18 +1164,6 @@ body {
 .tabs .media-tab:hover .value-item__text {
   fill: var(--white);
   color: var(--white);
-}
-
-.media-tab:nth-child(3) p {
-  margin-left: -34px;
-}
-
-.media-tab:nth-child(4) p {
-  margin-left: -14px;
-}
-
-.media-tab:nth-child(5) p {
-  margin-left: 18px;
 }
 
 .portfolio-section {
